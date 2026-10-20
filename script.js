@@ -2,6 +2,6 @@
 const status = document.getElementById("Status");
 const enterBtn = document.getElementById("enterBtn");
 
-enterBtn.addEventListener("click", function() {
-	status.outerHTML = "<h1 id='status'>Entered Metaverse</h1>";
+enterBtn.addEventListener("click", () => {
+  status.innerHTML = "<h1>Entered Metaverse</h1>";
 });
